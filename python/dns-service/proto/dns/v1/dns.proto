@@ -1,0 +1,61 @@
+syntax = "proto3";
+
+package dns_service;
+
+message RootNameserver {
+    string id = 1;
+    string name = 2;
+    string address = 3;
+}
+
+message GetRootNameserver {
+    string id = 1;
+}
+
+message GetRootNameserverRequest {
+    string id = 1;
+}
+
+message GetRootNameserverResponse {
+    RootNameserver nameserver = 1;
+}
+
+message CreateRootNameserverRequest {
+    RootNameserver nameserver = 1;
+}
+
+message CreateRootNameserverResponse {
+    RootNameserver nameserver = 1;
+}
+
+message UpdateRootNameserverRequest {
+    RootNameserver nameserver = 1;
+}
+
+message UpdateRootNameserverResponse {
+    RootNameserver nameserver = 1;
+}
+
+message DeleteRootNameserverRequest {
+    string id = 1;
+}
+
+message DeleteRootNameserverResponse {
+    bool success = 1;
+}
+
+message DnsLookupRequest {
+    string domain = 1;
+}
+
+message DnsLookupResponse {
+    repeated string ip_addresses = 1;
+}
+
+service DnsService {
+    rpc CreateRootNameserver(CreateRootNameserverRequest) returns (CreateRootNameserverResponse);
+    rpc GetRootNameserver(GetRootNameserverRequest) returns (RootNameserver);
+    rpc UpdateRootNameserver(UpdateRootNameserverRequest) returns (UpdateRootNameserverResponse);
+    rpc DeleteRootNameserver(DeleteRootNameserverRequest) returns (DeleteRootNameserverResponse);
+    rpc DnsLookup(DnsLookupRequest) returns (DnsLookupResponse);
+}

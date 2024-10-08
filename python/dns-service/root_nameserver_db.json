@@ -1,0 +1,69 @@
+{
+  "root_nameservers": [
+    {
+      "id": "a.root-servers.net",
+      "name": "A Root Server",
+      "address": "198.41.0.4"
+    },
+    {
+      "id": "b.root-servers.net",
+      "name": "B Root Server",
+      "address": "199.9.14.201"
+    },
+    {
+      "id": "c.root-servers.net",
+      "name": "C Root Server",
+      "address": "192.33.4.12"
+    },
+    {
+      "id": "d.root-servers.net",
+      "name": "D Root Server",
+      "address": "199.7.91.13"
+    },
+    {
+      "id": "e.root-servers.net",
+      "name": "E Root Server",
+      "address": "192.203.230.10"
+    },
+    {
+      "id": "f.root-servers.net",
+      "name": "F Root Server",
+      "address": "192.5.5.241"
+    },
+    {
+      "id": "g.root-servers.net",
+      "name": "G Root Server",
+      "address": "192.112.36.4"
+    },
+    {
+      "id": "h.root-servers.net",
+      "name": "H Root Server",
+      "address": "198.97.190.53"
+    },
+    {
+      "id": "i.root-servers.net",
+      "name": "I Root Server",
+      "address": "192.36.148.17"
+    },
+    {
+      "id": "j.root-servers.net",
+      "name": "J Root Server",
+      "address": "192.58.128.30"
+    },
+    {
+      "id": "k.root-servers.net",
+      "name": "K Root Server",
+      "address": "193.0.14.129"
+    },
+    {
+      "id": "l.root-servers.net",
+      "name": "L Root Server",
+      "address": "199.7.83.42"
+    },
+    {
+      "id": "m.root-servers.net",
+      "name": "M Root Server",
+      "address": "202.12.27.33"
+    }
+  ]
+}
