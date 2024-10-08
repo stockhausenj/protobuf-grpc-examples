@@ -6,8 +6,7 @@ from dns.v1 import dns_pb2 as dns_dot_v1_dot_dns__pb2
 
 
 class DnsServiceStub(object):
-    """Service definition
-    """
+    """Missing associated documentation comment in .proto file."""
 
     def __init__(self, channel):
         """Constructor.
@@ -43,8 +42,7 @@ class DnsServiceStub(object):
 
 
 class DnsServiceServicer(object):
-    """Service definition
-    """
+    """Missing associated documentation comment in .proto file."""
 
     def CreateRootNameserver(self, request, context):
         """Missing associated documentation comment in .proto file."""
@@ -113,8 +111,7 @@ def add_DnsServiceServicer_to_server(servicer, server):
 
  # This class is part of an EXPERIMENTAL API.
 class DnsService(object):
-    """Service definition
-    """
+    """Missing associated documentation comment in .proto file."""
 
     @staticmethod
     def CreateRootNameserver(request,

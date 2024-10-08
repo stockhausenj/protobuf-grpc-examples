@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10\x64ns/v1/dns.proto\x12\x0b\x64ns_service\"N\n\x0eRootNameserver\x12\x0e\n\x02id\x18\x01 \x01(\tR\x02id\x12\x12\n\x04name\x18\x02 \x01(\tR\x04name\x12\x18\n\x07\x61\x64\x64ress\x18\x03 \x01(\tR\x07\x61\x64\x64ress\"*\n\x18GetRootNameserverRequest\x12\x0e\n\x02id\x18\x01 \x01(\tR\x02id\"Z\n\x1b\x43reateRootNameserverRequest\x12;\n\nnameserver\x18\x01 \x01(\x0b\x32\x1b.dns_service.RootNameserverR\nnameserver\"[\n\x1c\x43reateRootNameserverResponse\x12;\n\nnameserver\x18\x01 \x01(\x0b\x32\x1b.dns_service.RootNameserverR\nnameserver\"#\n\x11GetRootNameserver\x12\x0e\n\x02id\x18\x01 \x01(\tR\x02id\"Y\n\x1aReadRootNameserverResponse\x12;\n\nnameserver\x18\x01 \x01(\x0b\x32\x1b.dns_service.RootNameserverR\nnameserver\"Z\n\x1bUpdateRootNameserverRequest\x12;\n\nnameserver\x18\x01 \x01(\x0b\x32\x1b.dns_service.RootNameserverR\nnameserver\"[\n\x1cUpdateRootNameserverResponse\x12;\n\nnameserver\x18\x01 \x01(\x0b\x32\x1b.dns_service.RootNameserverR\nnameserver\"-\n\x1b\x44\x65leteRootNameserverRequest\x12\x0e\n\x02id\x18\x01 \x01(\tR\x02id\"8\n\x1c\x44\x65leteRootNameserverResponse\x12\x18\n\x07success\x18\x01 \x01(\x08R\x07success\"*\n\x10\x44nsLookupRequest\x12\x16\n\x06\x64omain\x18\x01 \x01(\tR\x06\x64omain\"6\n\x11\x44nsLookupResponse\x12!\n\x0cip_addresses\x18\x01 \x03(\tR\x0bipAddresses2\xf8\x03\n\nDnsService\x12k\n\x14\x43reateRootNameserver\x12(.dns_service.CreateRootNameserverRequest\x1a).dns_service.CreateRootNameserverResponse\x12W\n\x11GetRootNameserver\x12%.dns_service.GetRootNameserverRequest\x1a\x1b.dns_service.RootNameserver\x12k\n\x14UpdateRootNameserver\x12(.dns_service.UpdateRootNameserverRequest\x1a).dns_service.UpdateRootNameserverResponse\x12k\n\x14\x44\x65leteRootNameserver\x12(.dns_service.DeleteRootNameserverRequest\x1a).dns_service.DeleteRootNameserverResponse\x12J\n\tDnsLookup\x12\x1d.dns_service.DnsLookupRequest\x1a\x1e.dns_service.DnsLookupResponseBc\n\x0f\x63om.dns_serviceB\x08\x44nsProtoP\x01\xa2\x02\x03\x44XX\xaa\x02\nDnsService\xca\x02\nDnsService\xe2\x02\x16\x44nsService\\GPBMetadata\xea\x02\nDnsServiceb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10\x64ns/v1/dns.proto\x12\x0b\x64ns_service\"N\n\x0eRootNameserver\x12\x0e\n\x02id\x18\x01 \x01(\tR\x02id\x12\x12\n\x04name\x18\x02 \x01(\tR\x04name\x12\x18\n\x07\x61\x64\x64ress\x18\x03 \x01(\tR\x07\x61\x64\x64ress\"*\n\x18GetRootNameserverRequest\x12\x0e\n\x02id\x18\x01 \x01(\tR\x02id\"X\n\x19GetRootNameserverResponse\x12;\n\nnameserver\x18\x01 \x01(\x0b\x32\x1b.dns_service.RootNameserverR\nnameserver\"Z\n\x1b\x43reateRootNameserverRequest\x12;\n\nnameserver\x18\x01 \x01(\x0b\x32\x1b.dns_service.RootNameserverR\nnameserver\"[\n\x1c\x43reateRootNameserverResponse\x12;\n\nnameserver\x18\x01 \x01(\x0b\x32\x1b.dns_service.RootNameserverR\nnameserver\"Z\n\x1bUpdateRootNameserverRequest\x12;\n\nnameserver\x18\x01 \x01(\x0b\x32\x1b.dns_service.RootNameserverR\nnameserver\"[\n\x1cUpdateRootNameserverResponse\x12;\n\nnameserver\x18\x01 \x01(\x0b\x32\x1b.dns_service.RootNameserverR\nnameserver\"-\n\x1b\x44\x65leteRootNameserverRequest\x12\x0e\n\x02id\x18\x01 \x01(\tR\x02id\"8\n\x1c\x44\x65leteRootNameserverResponse\x12\x18\n\x07success\x18\x01 \x01(\x08R\x07success\"*\n\x10\x44nsLookupRequest\x12\x16\n\x06\x64omain\x18\x01 \x01(\tR\x06\x64omain\"6\n\x11\x44nsLookupResponse\x12!\n\x0cip_addresses\x18\x01 \x03(\tR\x0bipAddresses2\xf8\x03\n\nDnsService\x12k\n\x14\x43reateRootNameserver\x12(.dns_service.CreateRootNameserverRequest\x1a).dns_service.CreateRootNameserverResponse\x12W\n\x11GetRootNameserver\x12%.dns_service.GetRootNameserverRequest\x1a\x1b.dns_service.RootNameserver\x12k\n\x14UpdateRootNameserver\x12(.dns_service.UpdateRootNameserverRequest\x1a).dns_service.UpdateRootNameserverResponse\x12k\n\x14\x44\x65leteRootNameserver\x12(.dns_service.DeleteRootNameserverRequest\x1a).dns_service.DeleteRootNameserverResponse\x12J\n\tDnsLookup\x12\x1d.dns_service.DnsLookupRequest\x1a\x1e.dns_service.DnsLookupResponseBc\n\x0f\x63om.dns_serviceB\x08\x44nsProtoP\x01\xa2\x02\x03\x44XX\xaa\x02\nDnsService\xca\x02\nDnsService\xe2\x02\x16\x44nsService\\GPBMetadata\xea\x02\nDnsServiceb\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -36,26 +36,24 @@ if not _descriptor._USE_C_DESCRIPTORS:
   _globals['_ROOTNAMESERVER']._serialized_end=111
   _globals['_GETROOTNAMESERVERREQUEST']._serialized_start=113
   _globals['_GETROOTNAMESERVERREQUEST']._serialized_end=155
-  _globals['_CREATEROOTNAMESERVERREQUEST']._serialized_start=157
-  _globals['_CREATEROOTNAMESERVERREQUEST']._serialized_end=247
-  _globals['_CREATEROOTNAMESERVERRESPONSE']._serialized_start=249
-  _globals['_CREATEROOTNAMESERVERRESPONSE']._serialized_end=340
-  _globals['_GETROOTNAMESERVER']._serialized_start=342
-  _globals['_GETROOTNAMESERVER']._serialized_end=377
-  _globals['_READROOTNAMESERVERRESPONSE']._serialized_start=379
-  _globals['_READROOTNAMESERVERRESPONSE']._serialized_end=468
-  _globals['_UPDATEROOTNAMESERVERREQUEST']._serialized_start=470
-  _globals['_UPDATEROOTNAMESERVERREQUEST']._serialized_end=560
-  _globals['_UPDATEROOTNAMESERVERRESPONSE']._serialized_start=562
-  _globals['_UPDATEROOTNAMESERVERRESPONSE']._serialized_end=653
-  _globals['_DELETEROOTNAMESERVERREQUEST']._serialized_start=655
-  _globals['_DELETEROOTNAMESERVERREQUEST']._serialized_end=700
-  _globals['_DELETEROOTNAMESERVERRESPONSE']._serialized_start=702
-  _globals['_DELETEROOTNAMESERVERRESPONSE']._serialized_end=758
-  _globals['_DNSLOOKUPREQUEST']._serialized_start=760
-  _globals['_DNSLOOKUPREQUEST']._serialized_end=802
-  _globals['_DNSLOOKUPRESPONSE']._serialized_start=804
-  _globals['_DNSLOOKUPRESPONSE']._serialized_end=858
-  _globals['_DNSSERVICE']._serialized_start=861
-  _globals['_DNSSERVICE']._serialized_end=1365
+  _globals['_GETROOTNAMESERVERRESPONSE']._serialized_start=157
+  _globals['_GETROOTNAMESERVERRESPONSE']._serialized_end=245
+  _globals['_CREATEROOTNAMESERVERREQUEST']._serialized_start=247
+  _globals['_CREATEROOTNAMESERVERREQUEST']._serialized_end=337
+  _globals['_CREATEROOTNAMESERVERRESPONSE']._serialized_start=339
+  _globals['_CREATEROOTNAMESERVERRESPONSE']._serialized_end=430
+  _globals['_UPDATEROOTNAMESERVERREQUEST']._serialized_start=432
+  _globals['_UPDATEROOTNAMESERVERREQUEST']._serialized_end=522
+  _globals['_UPDATEROOTNAMESERVERRESPONSE']._serialized_start=524
+  _globals['_UPDATEROOTNAMESERVERRESPONSE']._serialized_end=615
+  _globals['_DELETEROOTNAMESERVERREQUEST']._serialized_start=617
+  _globals['_DELETEROOTNAMESERVERREQUEST']._serialized_end=662
+  _globals['_DELETEROOTNAMESERVERRESPONSE']._serialized_start=664
+  _globals['_DELETEROOTNAMESERVERRESPONSE']._serialized_end=720
+  _globals['_DNSLOOKUPREQUEST']._serialized_start=722
+  _globals['_DNSLOOKUPREQUEST']._serialized_end=764
+  _globals['_DNSLOOKUPRESPONSE']._serialized_start=766
+  _globals['_DNSLOOKUPRESPONSE']._serialized_end=820
+  _globals['_DNSSERVICE']._serialized_start=823
+  _globals['_DNSSERVICE']._serialized_end=1327
 # @@protoc_insertion_point(module_scope)

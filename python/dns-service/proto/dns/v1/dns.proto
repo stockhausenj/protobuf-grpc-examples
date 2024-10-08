@@ -8,10 +8,6 @@ message RootNameserver {
     string address = 3;
 }
 
-message GetRootNameserver {
-    string id = 1;
-}
-
 message GetRootNameserverRequest {
     string id = 1;
 }
